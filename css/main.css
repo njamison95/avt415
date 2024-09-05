@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #413C48;
+	color: rgb(255, 240, 245);
+	line-height: auto;
+}
+
+h1, h2, ul, li {
+	font-family: "Bodoni Moda", serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+h1 {
+	font-size: 12vw;
+	margin: 0 0 0 50px;
+}
+h2 {
+	font-size: 50px;
+	margin: 0 0 20px 100px;
+}
+ul {
+	font-size: 20px;
+	margin: 0 0 50px 100px;
+}
+li {
+	font-family: "Figtree", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255, 240, 245);
+}
+a:visited {
+	color: rgb(255, 240, 245);
+}
+a:hover {
+	color: rgb(232,126,161);
+}
