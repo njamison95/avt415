@@ -2,16 +2,16 @@
 	box-sizing: border-box;
 }
 body {
-	background-color: #413C48;
-	color: rgb(255, 240, 245);
+	background-color: #F6E8EA;
+	color: #22181C;
 	line-height: auto;
 }
 
 h1, h2, ul, li {
-	font-family: "Bodoni Moda", serif;
-	font-optical-sizing: auto;
-	font-weight: <weight>;
-	font-style: normal;
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 h1 {
@@ -35,10 +35,10 @@ li {
 
 a {
 	text-decoration: none;
-	color: rgb(255, 240, 245);
+	color: #22181C;
 }
 a:visited {
-	color: rgb(255, 240, 245);
+	color: #22181C;
 }
 a:hover {
 	color: rgb(232,126,161);
