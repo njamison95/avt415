@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #F6E8EA;
-  color: #22181C;
+  background-color: #F2E8DC;
+  color: #3F3047;
   line-height: auto;
 }
 
@@ -72,16 +72,16 @@ ol li {
   /*background-color: red;*/
 }
 #current {
-  color: rgb(232,126,161);
+  color: #6E91AD;
 }
 
 a {
   text-decoration: none;
-  color: #22181C;
+  color: #3F3047;
 }
 a:visited {
-  color: #22181C;
+  color: #3F3047;
 }
 a:hover {
-  color: rgb(232,126,161);
+  color: #6E91AD;
 }
