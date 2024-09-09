@@ -1,9 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #F6E8EA;
+  color: #22181C;
+  line-height: auto;
+}
+
+/* header styles */
+header {
+  font-weight: 800;
+  font-style: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: flow-root;
+  width: 80vw;
+  margin: 0 auto;
+  /*background-color: red;*/
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 3px;
+  float: right;
+}
+nav li {
+  padding: 0;
+  margin: 25px 0 0 50px;
+  float: left;
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#homebutton {
+  font-size: 15px;
+  padding: 0;
+  margin: 25px 0 0 50px;
+  letter-spacing: 3px;
+  float: left;
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+  width: 80vw;
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 1;
+  /*background-color: red;*/
+}
+ol li {
+  width: 80vw;
+  margin: 0 auto;
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 1;
+  /*background-color: red;*/
+}
+#current {
+  color: rgb(232,126,161);
+}
+
 .container {
-	width: 70%;
+  width: 80vw;
+  margin: 0px auto;
 }
 img {
-	width: 100%;
+  width: 100%;
 }
+
+h1 {
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+  width: 80vw;
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  line-height: 1;
+  /*background-color: red;*/
+}
+
+a {
+  text-decoration: none;
+  color: #22181C;
+}
+a:visited {
+  color: #22181C;
+}
+a:hover {
+  color: rgb(232,126,161);
+}
+
 @media screen and (max-width: 1277px) {
   .container {
     width: 100%;

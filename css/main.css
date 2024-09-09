@@ -10,7 +10,7 @@ body {
 /* header styles */
 header {
   font-weight: 800;
-  font-style: 20px;
+  font-size: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
   display: flow-root;
@@ -25,7 +25,6 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  font-weight: 600;
   letter-spacing: 3px;
   float: right;
 }
@@ -35,19 +34,20 @@ nav li {
   float: left;
   font-family: "Kalnia", serif;
   font-optical-sizing: auto;
-  font-weight: 600;
+  font-weight: 800;
   font-style: normal;
 }
 
-
 h1 {
 	font-family: "Kalnia", serif;
-  	font-optical-sizing: auto;
-  	font-weight: 500;
-  	font-style: normal;
-  	font-size: 12vw;
-	margin: 250px 0 0 50px;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12vw;
+	margin: 0 0 100px 100px;
 	line-height: 1;
+  position: fixed;
+  bottom: 0;
 }
 
 a {
