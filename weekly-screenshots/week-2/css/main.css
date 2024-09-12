@@ -52,7 +52,6 @@ h1 {
   font-family: "Kalnia", serif;
   font-optical-sizing: auto;
   font-weight: 500;
-  font-style: normal;
   font-size: 100px;
   width: 80vw;
   margin: 0px auto;
@@ -65,11 +64,21 @@ h2 {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
-  font-style: normal;
+  font-size: 40px;
   width: 80vw;
   margin: 0px auto;
   margin-bottom: 75px;
   line-height: 1;
+}
+h4 {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 20px;
+  width: 80vw;
+  margin: 0px auto;
+  margin-bottom: 75px;
+  line-height: 1.75;
 }
 
 #current {
@@ -83,6 +92,7 @@ h2 {
 
 img {
   width: 100%;
+  margin-bottom: 40px;
 }
 
 a {
