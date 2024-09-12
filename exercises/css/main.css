@@ -76,6 +76,24 @@ ol li {
   color: #6E91AD;
 }
 
+/*class example*/
+.fixed {
+  width: 600px;
+  height: 400px;
+  background-color: blue;
+}
+.vw { 
+  width: 100vw;
+  height: 200px;
+  background-color: darkred;
+}
+.per {
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+}
+
+
 a {
   text-decoration: none;
   color: #3F3047;

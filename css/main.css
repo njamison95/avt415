@@ -1,4 +1,4 @@
-* {
+* { /*this is the universal selector*/
 	box-sizing: border-box;
 }
 body {
@@ -29,7 +29,6 @@ nav ul {
   float: right;
 }
 nav li {
-  padding: 0;
   margin: 0 0 0 50px;
   float: left;
   font-family: "Kalnia", serif;
