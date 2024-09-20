@@ -10,7 +10,15 @@ h1 {
 	text-align: center;
 	margin-top: 45vh;
 }
-@media screen and (min-width: 600px) {
+
+@media screen and (max-width: 768px) {
+	body {
+		background-color: mediumpurple;
+	}
+
+
+
+/*@media screen and (min-width: 600px) {
 	body {
 		background-color: cyan;
 	}
@@ -34,6 +42,5 @@ h1 {
 @media screen and (min-width: 1400px) {
 	body {
 		background-color: cornflowerblue;
-	}
-	
-}
+	}	
+}*/
