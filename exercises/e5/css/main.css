@@ -7,6 +7,9 @@ body {
   line-height: 1.5;
   color: #333333;
 }
+.about {
+  background-color: #ffd700;
+}
 main {
   width: 70vw;
   margin: 100px auto;
@@ -125,10 +128,12 @@ button a:hover {
   .large-text {
     font-size: 1.5rem;
   }
+  .dauphines  {
+    background-color: dodgerblue;
+  }
 }
 @media screen and (min-width: 800px) {
   h1, h2, h3, h4, h5, h6 {
     color: #ff6347;
   }
 }
-
