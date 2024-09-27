@@ -61,6 +61,16 @@ h1 {
   line-height: 1;
   /*background-color: red;*/
 }
+h2 {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  width: 80vw;
+  margin: 0px auto;
+  margin-bottom: 75px;
+  line-height: 1;
+}
 ol li {
   width: 80vw;
   margin: 0 auto;
@@ -74,6 +84,13 @@ ol li {
 }
 #current {
   color: #6E91AD;
+}
+.container {
+  width: 80vw;
+  margin: 0px auto;
+}
+img {
+  width: 100%;
 }
 
 a {
