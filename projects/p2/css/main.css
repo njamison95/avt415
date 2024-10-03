@@ -75,16 +75,27 @@ h1 {
   line-height: 1;
   /*background-color: red;*/
 }
-ol li {
+.cont {
   width: 80vw;
-  margin: 0 auto;
-  font-family: "Kalnia", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
+  margin: 0px auto;
+  margin-bottom: 100px;
+}
+h2 {
+  font-family: "Figtree", sans-serif;
   font-size: 30px;
-  line-height: 1;
-  /*background-color: red;*/
+  margin: 0;
+}
+h3 {
+  font-family: "Figtree", sans-serif;
+  font-size: 20px;
+}
+ol {
+    margin-bottom: 50px;
+}
+ol li {
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 a {

@@ -15,6 +15,7 @@ header {
   display: flow-root;
   width: 80vw;
   margin: 0 auto;
+  /*background-color: red;*/
 }
 nav {
   float: right;
@@ -46,6 +47,17 @@ nav li {
   font-weight: 800;
   font-style: normal;
 }
+#current {
+  color: #6E91AD;
+}
+
+.container {
+  width: 80vw;
+  margin: 0px auto;
+}
+img {
+  width: 100%;
+}
 
 h1 {
   font-family: "Kalnia", serif;
@@ -60,19 +72,25 @@ h1 {
   line-height: 1;
   /*background-color: red;*/
 }
-ol li {
+.cont {
   width: 80vw;
-  margin: 0 auto;
+  margin: 0px auto;
+  margin-bottom: 100px;
+}
+h2 {
   font-family: "Kalnia", serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-size: 30px;
-  line-height: 1.75;
-  /*background-color: red;*/
 }
-#current {
-  color: #6E91AD;
+ol {
+    margin-bottom: 50px;
+}
+ol li {
+  font-family: "Figtree", sans-serif;
+  font-size: 21px;
+  line-height: 1.5;
 }
 
 a {
@@ -85,3 +103,8 @@ a:visited {
 a:hover {
   color: #6E91AD;
 }
+
+@media screen and (max-width: 1277px) {
+  .container {
+    width: 100%;
+  }
