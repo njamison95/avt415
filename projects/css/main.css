@@ -78,6 +78,7 @@ h1 {
   margin-bottom: 100px;
 }
 h2 {
+  width: 80vw;
   font-family: "Kalnia", serif;
   font-optical-sizing: auto;
   font-weight: 500;
