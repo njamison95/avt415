@@ -93,6 +93,10 @@ img {
   width: 100%;
   margin-bottom: 25px;
 }
+.mobile-image {
+  width: 25%;
+}
+
 
 a {
   text-decoration: none;
