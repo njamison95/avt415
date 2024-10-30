@@ -82,6 +82,18 @@ ol li {
   line-height: 1.75;
   /*background-color: red;*/
 }
+p {
+  width: 50vw;
+  margin: 0 auto;
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 40px;
+  line-height: 1.75;
+  /*background-color: red;*/
+}
 #current {
   color: #6E91AD;
 }
